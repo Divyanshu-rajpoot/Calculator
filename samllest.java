@@ -6,10 +6,10 @@ public class samllest {
         int num = sc.nextInt();
         int num2 = sc.nextInt();
         int num3 = sc.nextInt();
-        if (num > num2 && num > num3) {
+        if (num < num2 && num < num3) {
             System.out.println(num);
         }
-        else if(num2 > num && num2 > num3){
+        else if(num2 < num && num2 < num3){
             System.out.println(num2);
         }
         else{
